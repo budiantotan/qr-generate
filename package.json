@@ -1,0 +1,17 @@
+{
+  "name": "qr-download",
+  "version": "1.0.0",
+  "description": "Generate QR code from line separated file",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js",
+    "build": "yarn pkg index.js --out-path bin/qr-generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Budianto Tan",
+  "dependencies": {
+    "async": "^3.1.0",
+    "cli-progress": "^3.1.0",
+    "qrcode": "^1.4.1"
+  }
+}

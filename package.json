@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "generate": "node index.js",
-    "build": "yarn pkg index.js --out-path bin/qr-generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {

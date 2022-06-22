@@ -12,7 +12,7 @@
   },
   "author": "Budianto Tan",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "cli-progress": "^3.1.0",
     "qrcode": "^1.4.1"
   }
